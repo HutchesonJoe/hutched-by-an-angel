@@ -13,10 +13,12 @@ console.log(mainPic);
 function picGrow() {
     const bigPic = document.getElementById("mainpic");
     bigPic.style.width = "600px";
-    console.log(bigPic);
+    console.log("picGrow", bigPic);
 }
 
-document.addEventListener("mouseover", function(event){
-    picGrow;
+mainPic.addEventListener("mouseover", function(event){
+    picGrow();
+    console.log(event)
     }
 )
+

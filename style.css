@@ -2,3 +2,22 @@ body {
     background: blue;
 }
 
+h1  {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+h2  {
+    background-color:darkgrey;
+}
+
+#mainpic {
+    width: 400px;
+    border: burlywood;
+    border-width: 10px;
+}
+
+#picdiv {
+    text-align: center;
+
+}

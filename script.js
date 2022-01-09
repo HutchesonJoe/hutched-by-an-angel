@@ -7,3 +7,16 @@ const bio = document.createElement("div");
 bio.textContent = "Joe Hutcheson is a personal trainer, yoga instructor, college teacher, and aspiring coder.";
 
 document.querySelector("h3").appendChild(bio);
+
+const mainPic = document.getElementById("mainpic");
+console.log(mainPic);
+function picGrow() {
+    const bigPic = document.getElementById("mainpic");
+    bigPic.style.width = "600px";
+    console.log(bigPic);
+}
+
+document.addEventListener("mouseover", function(event){
+    picGrow;
+    }
+)
